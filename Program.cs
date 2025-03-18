@@ -6,6 +6,11 @@ class Program
     {
         PemrosesData pemrosesData = new PemrosesData();
         pemrosesData.DapatkanNilaiTerbesar(10, 30, 22);
-        
+
+        SimpleDataBase<int> dataSimpel = new SimpleDataBase<int>();
+        dataSimpel.AddNewData(10);
+        dataSimpel.PrintAllData();
+
     }
+ 
 }
